@@ -1,3 +1,15 @@
+`npm i axios dotenv moment tailwindcss react-router-dom react-redux @reduxjs/toolkit redux-devtools-extension i18next react-i18next js-cookie`
+
+## PWA
+
+To turn on PWA, app must be on production and have PUBLIC_URL set
+Then must build the app first to test PWA functionality, using:
+
+```bash
+    npm run build
+    serve -s build
+```
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
